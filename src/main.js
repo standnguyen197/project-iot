@@ -8,6 +8,14 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import vueHeadful from 'vue-headful';
 import VueSocketio from 'vue-socket.io';
+//----- VUE-TIME -----//
+import VueMoment from 'vue-moment'
+import moment from 'moment-timezone'
+require('moment/locale/vi')
+
+Vue.use(VueMoment, {
+  moment,
+})
 
 Vue.use(VueSocketio, 'http://localhost:3000');
 import VueSession from 'vue-session'

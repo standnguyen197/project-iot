@@ -9,7 +9,7 @@
   <b-collapse is-nav id="nav_collapse">
 
     <b-navbar-nav>
-      <b-nav-item href="#/scanID">Quét</b-nav-item>
+      <b-nav-item href="#/historyScan">LỊCH SỬ QUÉT</b-nav-item>
     </b-navbar-nav>
 
     <!-- Right aligned nav items -->

@@ -31,7 +31,9 @@
        
         </div>
     </div>
-    </center>
+   <br/>
+    <b-btn variant="success" @click="regLink">ĐĂNG KÝ</b-btn> <b-btn @click="logLink" variant="danger" class="ml-2">ĐĂNG NHẬP</b-btn>
+ </center>
     </div>
 </div>
 </template>
@@ -67,5 +69,13 @@
       console.log(value)
     }
   },
+  methods: {
+      regLink(){
+          location.href="#/dang-ky"
+      },
+      logLink(){
+          location.href="#/dang-nhap"
+      }
+  }
     }
 </script>

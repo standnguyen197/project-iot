@@ -15,6 +15,9 @@ import indexDashboard from '@/components/member/trangChu'
 import infoSuccess from '@/components/layout/infoSuccess'
 // ScanID
 import scanID from '@/components/scanID'
+// HistoryScan
+import HistoryScan from '@/components/admin/lichsuQuet'
+
 Vue.use(Router)
 
 export default new Router({
@@ -63,6 +66,11 @@ export default new Router({
       path: '/scanID',
       name: 'scanID',
       component: scanID
+    },
+    {
+      path: '/historyScan',
+      name: 'historyScan',
+      component: HistoryScan
     }
     
   ]

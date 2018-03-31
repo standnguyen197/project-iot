@@ -7,6 +7,9 @@ var bodyParser = require('body-parser');
 var auth = require('./routes/auth');
 var app = express();
 
+var apiRouteHistory = require('./routes/getHistory');
+app.use('/apiHistory', apiRouteHistory);
+
 var mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 mongoose.connect('mongodb://localhost/iot-toan', { useMongoClient: true, promiseLibrary: require('bluebird') })

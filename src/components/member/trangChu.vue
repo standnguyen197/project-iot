@@ -1,7 +1,7 @@
 <template>
 <div>
 <vue-headful
-            title="Quản trị Website"
+        title="Quản trị Website"
         />
 <navBar/>
 <b-container>
